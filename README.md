@@ -38,4 +38,4 @@ USAGE
 
 License
 
-Ciao is released under the MIT license. See LICENSE for details.
+Smitch-Task is released under the SMITCH license. See LICENSE for details.
