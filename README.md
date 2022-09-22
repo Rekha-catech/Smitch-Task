@@ -10,7 +10,8 @@ Requirements
 
 iOS 8.0+ / Mac OS X 10.10+ / tvOS 9.0+
 Xcode 9.0+
-Installation
+
+# Installation
 
 CocoaPods
 
@@ -28,7 +29,7 @@ Then, run the following command:
 
 $ pod install
 
-USAGE
+# USAGE
 
  var netService : NetService?
  
@@ -36,6 +37,6 @@ USAGE
  self.netService!.delegate = self
  self.netService!.publish()
 
-License
+# License
 
 Smitch-Task is released under the SMITCH license. See LICENSE for details.
