@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9C5D447A28DC74DA00970EA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D447928DC74DA00970EA7 /* AppDelegate.swift */; };
 		9C5D447C28DC74DA00970EA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D447B28DC74DA00970EA7 /* SceneDelegate.swift */; };
-		9C5D447E28DC74DA00970EA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D447D28DC74DA00970EA7 /* ViewController.swift */; };
 		9C5D448128DC74DA00970EA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5D447F28DC74DA00970EA7 /* Main.storyboard */; };
 		9C5D448428DC74DA00970EA7 /* MDNS_NETWORK_SERVICE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D448228DC74DA00970EA7 /* MDNS_NETWORK_SERVICE.xcdatamodeld */; };
 		9C5D448628DC74DC00970EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5D448528DC74DC00970EA7 /* Assets.xcassets */; };
@@ -40,7 +39,6 @@
 		9C5D447628DC74DA00970EA7 /* MDNS_NETWORK_SERVICE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDNS_NETWORK_SERVICE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C5D447928DC74DA00970EA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C5D447B28DC74DA00970EA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9C5D447D28DC74DA00970EA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C5D448028DC74DA00970EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C5D448328DC74DA00970EA7 /* MDNS_NETWORK_SERVICE.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MDNS_NETWORK_SERVICE.xcdatamodel; sourceTree = "<group>"; };
 		9C5D448528DC74DC00970EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,7 +101,7 @@
 			children = (
 				9C5D447928DC74DA00970EA7 /* AppDelegate.swift */,
 				9C5D447B28DC74DA00970EA7 /* SceneDelegate.swift */,
-				9C5D447D28DC74DA00970EA7 /* ViewController.swift */,
+				9C5D44AC28DC758700970EA7 /* ViewController */,
 				9C5D447F28DC74DA00970EA7 /* Main.storyboard */,
 				9C5D448528DC74DC00970EA7 /* Assets.xcassets */,
 				9C5D448728DC74DC00970EA7 /* LaunchScreen.storyboard */,
@@ -128,6 +126,13 @@
 				9C5D449F28DC74DD00970EA7 /* MDNS_NETWORK_SERVICEUITestsLaunchTests.swift */,
 			);
 			path = MDNS_NETWORK_SERVICEUITests;
+			sourceTree = "<group>";
+		};
+		9C5D44AC28DC758700970EA7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +267,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C5D448428DC74DA00970EA7 /* MDNS_NETWORK_SERVICE.xcdatamodeld in Sources */,
-				9C5D447E28DC74DA00970EA7 /* ViewController.swift in Sources */,
 				9C5D447A28DC74DA00970EA7 /* AppDelegate.swift in Sources */,
 				9C5D447C28DC74DA00970EA7 /* SceneDelegate.swift in Sources */,
 			);
