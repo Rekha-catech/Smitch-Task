@@ -1,0 +1,18 @@
+PODS:
+  - Ciao (2.1.1):
+    - Ciao/Core (= 2.1.1)
+  - Ciao/Core (2.1.1)
+
+DEPENDENCIES:
+  - Ciao (~> 2.1.1)
+
+SPEC REPOS:
+  trunk:
+    - Ciao
+
+SPEC CHECKSUMS:
+  Ciao: 107833c319c7708c452da5e53e32b900500c9f77
+
+PODFILE CHECKSUM: b3bacd29951ba620f623af4305be5890999998f1
+
+COCOAPODS: 1.11.3

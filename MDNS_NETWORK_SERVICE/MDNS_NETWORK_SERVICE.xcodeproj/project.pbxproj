@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		105253B772D145F19649694C /* Pods_MDNS_NETWORK_SERVICETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 912B8AF296675DC18C7A769D /* Pods_MDNS_NETWORK_SERVICETests.framework */; };
 		9C5D447A28DC74DA00970EA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D447928DC74DA00970EA7 /* AppDelegate.swift */; };
 		9C5D447C28DC74DA00970EA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D447B28DC74DA00970EA7 /* SceneDelegate.swift */; };
 		9C5D448128DC74DA00970EA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5D447F28DC74DA00970EA7 /* Main.storyboard */; };
@@ -16,6 +17,13 @@
 		9C5D449428DC74DD00970EA7 /* MDNS_NETWORK_SERVICETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D449328DC74DD00970EA7 /* MDNS_NETWORK_SERVICETests.swift */; };
 		9C5D449E28DC74DD00970EA7 /* MDNS_NETWORK_SERVICEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D449D28DC74DD00970EA7 /* MDNS_NETWORK_SERVICEUITests.swift */; };
 		9C5D44A028DC74DD00970EA7 /* MDNS_NETWORK_SERVICEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D449F28DC74DD00970EA7 /* MDNS_NETWORK_SERVICEUITestsLaunchTests.swift */; };
+		9C5D44B128DC762A00970EA7 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D44AD28DC762A00970EA7 /* ServicesViewController.swift */; };
+		9C5D44B228DC762A00970EA7 /* DomainsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D44AE28DC762A00970EA7 /* DomainsViewController.swift */; };
+		9C5D44B328DC762A00970EA7 /* ServiceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D44AF28DC762A00970EA7 /* ServiceDetailViewController.swift */; };
+		9C5D44B428DC762A00970EA7 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D44B028DC762A00970EA7 /* TableView.swift */; };
+		9C5D44B628DC763A00970EA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D44B528DC763A00970EA7 /* ViewController.swift */; };
+		AADB9B7A57F5B0B9D9F9E3A7 /* Pods_MDNS_NETWORK_SERVICE_MDNS_NETWORK_SERVICEUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9AEC7BD7D67EF415E426BB /* Pods_MDNS_NETWORK_SERVICE_MDNS_NETWORK_SERVICEUITests.framework */; };
+		B85A3FFE705C7A59AC8C2696 /* Pods_MDNS_NETWORK_SERVICE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BDDD1BE881095043A22B1F /* Pods_MDNS_NETWORK_SERVICE.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		009CE5F793D38072E7811885 /* Pods-MDNS_NETWORK_SERVICE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDNS_NETWORK_SERVICE.release.xcconfig"; path = "Target Support Files/Pods-MDNS_NETWORK_SERVICE/Pods-MDNS_NETWORK_SERVICE.release.xcconfig"; sourceTree = "<group>"; };
+		2F1A0C600C140072B14F35DA /* Pods-MDNS_NETWORK_SERVICETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDNS_NETWORK_SERVICETests.debug.xcconfig"; path = "Target Support Files/Pods-MDNS_NETWORK_SERVICETests/Pods-MDNS_NETWORK_SERVICETests.debug.xcconfig"; sourceTree = "<group>"; };
+		40611BC3C0EF2059CAA2C57C /* Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests.debug.xcconfig"; path = "Target Support Files/Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests/Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		912B8AF296675DC18C7A769D /* Pods_MDNS_NETWORK_SERVICETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDNS_NETWORK_SERVICETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C5D447628DC74DA00970EA7 /* MDNS_NETWORK_SERVICE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDNS_NETWORK_SERVICE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C5D447928DC74DA00970EA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C5D447B28DC74DA00970EA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,16 @@
 		9C5D449928DC74DD00970EA7 /* MDNS_NETWORK_SERVICEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDNS_NETWORK_SERVICEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C5D449D28DC74DD00970EA7 /* MDNS_NETWORK_SERVICEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDNS_NETWORK_SERVICEUITests.swift; sourceTree = "<group>"; };
 		9C5D449F28DC74DD00970EA7 /* MDNS_NETWORK_SERVICEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDNS_NETWORK_SERVICEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C5D44AD28DC762A00970EA7 /* ServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		9C5D44AE28DC762A00970EA7 /* DomainsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomainsViewController.swift; sourceTree = "<group>"; };
+		9C5D44AF28DC762A00970EA7 /* ServiceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceDetailViewController.swift; sourceTree = "<group>"; };
+		9C5D44B028DC762A00970EA7 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		9C5D44B528DC763A00970EA7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0421E3295ED40101FDFF0E9 /* Pods-MDNS_NETWORK_SERVICETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDNS_NETWORK_SERVICETests.release.xcconfig"; path = "Target Support Files/Pods-MDNS_NETWORK_SERVICETests/Pods-MDNS_NETWORK_SERVICETests.release.xcconfig"; sourceTree = "<group>"; };
+		A9BDDD1BE881095043A22B1F /* Pods_MDNS_NETWORK_SERVICE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDNS_NETWORK_SERVICE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AB7E55839C5BFA271C7B21 /* Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests.release.xcconfig"; path = "Target Support Files/Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests/Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED9AEC7BD7D67EF415E426BB /* Pods_MDNS_NETWORK_SERVICE_MDNS_NETWORK_SERVICEUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDNS_NETWORK_SERVICE_MDNS_NETWORK_SERVICEUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA7F896EA6119CEE0F261D9 /* Pods-MDNS_NETWORK_SERVICE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDNS_NETWORK_SERVICE.debug.xcconfig"; path = "Target Support Files/Pods-MDNS_NETWORK_SERVICE/Pods-MDNS_NETWORK_SERVICE.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85A3FFE705C7A59AC8C2696 /* Pods_MDNS_NETWORK_SERVICE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105253B772D145F19649694C /* Pods_MDNS_NETWORK_SERVICETests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADB9B7A57F5B0B9D9F9E3A7 /* Pods_MDNS_NETWORK_SERVICE_MDNS_NETWORK_SERVICEUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98E34BE19FF14E961F627477 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDA7F896EA6119CEE0F261D9 /* Pods-MDNS_NETWORK_SERVICE.debug.xcconfig */,
+				009CE5F793D38072E7811885 /* Pods-MDNS_NETWORK_SERVICE.release.xcconfig */,
+				40611BC3C0EF2059CAA2C57C /* Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests.debug.xcconfig */,
+				E2AB7E55839C5BFA271C7B21 /* Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests.release.xcconfig */,
+				2F1A0C600C140072B14F35DA /* Pods-MDNS_NETWORK_SERVICETests.debug.xcconfig */,
+				A0421E3295ED40101FDFF0E9 /* Pods-MDNS_NETWORK_SERVICETests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9C5D446D28DC74DA00970EA7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				9C5D449228DC74DD00970EA7 /* MDNS_NETWORK_SERVICETests */,
 				9C5D449C28DC74DD00970EA7 /* MDNS_NETWORK_SERVICEUITests */,
 				9C5D447728DC74DA00970EA7 /* Products */,
+				98E34BE19FF14E961F627477 /* Pods */,
+				C49E702EFDE956240183265A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,8 +172,23 @@
 		9C5D44AC28DC758700970EA7 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				9C5D44B528DC763A00970EA7 /* ViewController.swift */,
+				9C5D44AE28DC762A00970EA7 /* DomainsViewController.swift */,
+				9C5D44AF28DC762A00970EA7 /* ServiceDetailViewController.swift */,
+				9C5D44AD28DC762A00970EA7 /* ServicesViewController.swift */,
+				9C5D44B028DC762A00970EA7 /* TableView.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C49E702EFDE956240183265A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9BDDD1BE881095043A22B1F /* Pods_MDNS_NETWORK_SERVICE.framework */,
+				ED9AEC7BD7D67EF415E426BB /* Pods_MDNS_NETWORK_SERVICE_MDNS_NETWORK_SERVICEUITests.framework */,
+				912B8AF296675DC18C7A769D /* Pods_MDNS_NETWORK_SERVICETests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C5D44A328DC74DD00970EA7 /* Build configuration list for PBXNativeTarget "MDNS_NETWORK_SERVICE" */;
 			buildPhases = (
+				E5EBE7856F607ED6BF4ED740 /* [CP] Check Pods Manifest.lock */,
 				9C5D447228DC74DA00970EA7 /* Sources */,
 				9C5D447328DC74DA00970EA7 /* Frameworks */,
 				9C5D447428DC74DA00970EA7 /* Resources */,
+				00E881F37D60F6C890DC8C7B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C5D44A628DC74DD00970EA7 /* Build configuration list for PBXNativeTarget "MDNS_NETWORK_SERVICETests" */;
 			buildPhases = (
+				FC57B8A97E4139F473652049 /* [CP] Check Pods Manifest.lock */,
 				9C5D448B28DC74DD00970EA7 /* Sources */,
 				9C5D448C28DC74DD00970EA7 /* Frameworks */,
 				9C5D448D28DC74DD00970EA7 /* Resources */,
@@ -177,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C5D44A928DC74DD00970EA7 /* Build configuration list for PBXNativeTarget "MDNS_NETWORK_SERVICEUITests" */;
 			buildPhases = (
+				91FB5F1C3272CA942A66C84E /* [CP] Check Pods Manifest.lock */,
 				9C5D449528DC74DD00970EA7 /* Sources */,
 				9C5D449628DC74DD00970EA7 /* Frameworks */,
 				9C5D449728DC74DD00970EA7 /* Resources */,
+				F583678D815E16A94F991375 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +322,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00E881F37D60F6C890DC8C7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MDNS_NETWORK_SERVICE/Pods-MDNS_NETWORK_SERVICE-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MDNS_NETWORK_SERVICE/Pods-MDNS_NETWORK_SERVICE-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MDNS_NETWORK_SERVICE/Pods-MDNS_NETWORK_SERVICE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91FB5F1C3272CA942A66C84E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5EBE7856F607ED6BF4ED740 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDNS_NETWORK_SERVICE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F583678D815E16A94F991375 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests/Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests/Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests/Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC57B8A97E4139F473652049 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDNS_NETWORK_SERVICETests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9C5D447228DC74DA00970EA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,7 +432,12 @@
 			files = (
 				9C5D448428DC74DA00970EA7 /* MDNS_NETWORK_SERVICE.xcdatamodeld in Sources */,
 				9C5D447A28DC74DA00970EA7 /* AppDelegate.swift in Sources */,
+				9C5D44B128DC762A00970EA7 /* ServicesViewController.swift in Sources */,
+				9C5D44B428DC762A00970EA7 /* TableView.swift in Sources */,
 				9C5D447C28DC74DA00970EA7 /* SceneDelegate.swift in Sources */,
+				9C5D44B228DC762A00970EA7 /* DomainsViewController.swift in Sources */,
+				9C5D44B628DC763A00970EA7 /* ViewController.swift in Sources */,
+				9C5D44B328DC762A00970EA7 /* ServiceDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +609,7 @@
 		};
 		9C5D44A428DC74DD00970EA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA7F896EA6119CEE0F261D9 /* Pods-MDNS_NETWORK_SERVICE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,6 +638,7 @@
 		};
 		9C5D44A528DC74DD00970EA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009CE5F793D38072E7811885 /* Pods-MDNS_NETWORK_SERVICE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -496,6 +667,7 @@
 		};
 		9C5D44A728DC74DD00970EA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1A0C600C140072B14F35DA /* Pods-MDNS_NETWORK_SERVICETests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +688,7 @@
 		};
 		9C5D44A828DC74DD00970EA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0421E3295ED40101FDFF0E9 /* Pods-MDNS_NETWORK_SERVICETests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +709,7 @@
 		};
 		9C5D44AA28DC74DD00970EA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40611BC3C0EF2059CAA2C57C /* Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +728,7 @@
 		};
 		9C5D44AB28DC74DD00970EA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2AB7E55839C5BFA271C7B21 /* Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

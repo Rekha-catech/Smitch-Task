@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  MDNS_Network
+//  MDNS_NETWORK_SERVICE
 //
 //  Created by PQC India iMac-2 on 21/09/22.
 //

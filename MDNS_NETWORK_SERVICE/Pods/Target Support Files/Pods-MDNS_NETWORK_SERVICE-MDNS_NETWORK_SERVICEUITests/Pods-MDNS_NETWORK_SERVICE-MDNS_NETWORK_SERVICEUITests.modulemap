@@ -1,0 +1,6 @@
+framework module Pods_MDNS_NETWORK_SERVICE_MDNS_NETWORK_SERVICEUITests {
+  umbrella header "Pods-MDNS_NETWORK_SERVICE-MDNS_NETWORK_SERVICEUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

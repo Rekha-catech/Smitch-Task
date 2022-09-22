@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_MDNS_NETWORK_SERVICE_MDNS_NETWORK_SERVICEUITests : NSObject
+@end
+@implementation PodsDummy_Pods_MDNS_NETWORK_SERVICE_MDNS_NETWORK_SERVICEUITests
+@end
